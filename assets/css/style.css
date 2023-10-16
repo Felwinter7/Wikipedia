@@ -1,0 +1,172 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px;}
+#elenco li { padding-left: 40px; margin-bottom: 10px; margin-top: 10px;}
+a { color:blue; text-decoration: none;}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+#logo {
+    width: 150px;
+   
+}
+
+header figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header h1 {
+    font-size: 50px;
+    padding: 10px 50px;
+}
+
+header label { 
+    padding-left: 400px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+
+nav {
+    float: left;
+    max-width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: sticky;
+    display: block;
+    top: 0;
+}
+
+nav li {
+    padding-bottom: 5px;
+}
+
+
+#avi_arad {
+    border: solid  #c8ccd1 1px;
+    width:180px ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+
+}
+
+
+
+#jon_favreau {
+    border: solid  #c8ccd1 1px;
+    max-width: 300px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    
+}
+
+#jon_favreau img {
+  max-width: 300px;
+}
+
+
+
+section {
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: grid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: solid #cdcdcd 1px;
+    
+}
+
+
+footer {
+    min-height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border-top: solid 1px #cdcdcd;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+table, td, tr, th{
+    border: 1px black solid;
+}
+
+
+#thor {
+   text-align: center;
+}
+
+#thor img {
+    width: 550px;
+}
+
+#homem_de_ferro {
+    text-align: center;
+}
+
+#homem_de_ferro img {
+    width: 550px ;
+}
+
+#homem_de_ferro_2 {
+    text-align: center;
+
+}
+
+#homem_de_ferro_2 img {
+    width: 550px;
+
+}
+
+#hulk {
+    text-align: center;
+}
+
+#hulk img {
+    width: 550px;
+}
+
+#capitao_america {
+    text-align: center;
+}
+
+#capitao_america img {
+    width: 550px;
+}
+
+#vingadores {
+    text-align: center;
+}
+
+#vingadores img {
+    width: 550px;
+}
+
+#ucm_fase_1 {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+#ucm_fase_1 img{
+    width: 750px;
+}
